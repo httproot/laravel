@@ -21,7 +21,20 @@ class IndexController extends Controller{
         return view('admin.xgmenu',['daid'=>$xgmenu]);
     }
     public function xgmenupost(){
+        if(Menu::where(['mid'=>$_POST['mid']])->update(['mid'=>$_POST['mid'],
+            'menu_name'=>$_POST['menu_name'],
+            'url'=>$_POST['url'],
+            'tubiao'=>$_POST['tubiao'],
+            'youfubiao'=>$_POST['youfubiao'],
+            'fid'=>$_POST['fid'],
+            'px'=>$_POST['px']
+        ])){
+            return redirect('admin/glmenu');
+        }
+    }
+    public function addmenu(){
         $menu=new Menu();
+        $menu->mid=$_POST['mid'];
         $menu->menu_name=$_POST['menu_name'];
         $menu->url=$_POST['url'];
         $menu->tubiao=$_POST['tubiao'];

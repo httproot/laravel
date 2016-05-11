@@ -29,6 +29,7 @@
 
                             <div class="col-lg-10"><p class="form-control-static">{!! $daid->mid !!}</p></div>
                         </div>
+                        <input type="hidden" name="mid"value="{!! $daid->mid !!}" id="">
                         <div class="hr-line-dashed"></div>
                         <div class="form-group"><label class="col-sm-2 control-label">名称</label>
 
@@ -72,6 +73,7 @@
 
                             <div class="col-sm-10"><input type="text" name="px" class="form-control"value="{!! $daid->px !!}"></div>
                         </div>
+                        {!! csrf_field() !!}
                         <div class="hr-line-dashed"></div>
                         <div class="form-group">
                             <div class="col-sm-4 col-sm-offset-2">

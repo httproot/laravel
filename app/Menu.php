@@ -8,4 +8,5 @@ class Menu extends Model
 {
     protected $table = 'admin_menu';
     public $timestamps = false;
+    public $primaryKey='mid';
 }

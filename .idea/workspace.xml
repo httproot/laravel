@@ -7,6 +7,9 @@
   <component name="ChangeListManager">
     <list default="true" id="df8c950d-366a-4c12-ae83-c254a34c67f9" name="默认的" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/admin/IndexController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/admin/IndexController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Menu.php" afterPath="$PROJECT_DIR$/app/Menu.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/xgmenu.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/xgmenu.blade.php" />
     </list>
     <ignored path="xmg.iws" />
@@ -33,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="254">
-              <caret line="19" column="52" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="52" />
+              <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
               <folding>
                 <element signature="e#7#392#0#PHP" expanded="true" />
               </folding>
@@ -44,8 +47,8 @@
       <file leaf-file-name="IndexController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/IndexController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+            <state relative-caret-position="166">
+              <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
               <folding>
                 <element signature="e#44#80#0#PHP" expanded="true" />
               </folding>
@@ -77,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="xgmenu.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="xgmenu.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/admin/xgmenu.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="72" column="78" selection-start-line="72" selection-start-column="78" selection-end-line="72" selection-end-column="78" />
+            <state relative-caret-position="220">
+              <caret line="31" column="80" selection-start-line="31" selection-start-column="80" selection-end-line="31" selection-end-column="80" />
               <folding />
             </state>
           </provider>
@@ -97,11 +100,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Menu.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Menu.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Menu.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+            <state relative-caret-position="220">
+              <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -171,10 +174,10 @@
         <option value="$PROJECT_DIR$/resources/views/admin/glmenu.blade.php" />
         <option value="$PROJECT_DIR$/public/style/js/inspinia.js" />
         <option value="$PROJECT_DIR$/resources/views/admin/base_content.blade.php" />
-        <option value="$PROJECT_DIR$/app/Menu.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/admin/IndexController.php" />
+        <option value="$PROJECT_DIR$/app/Menu.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/xgmenu.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/admin/IndexController.php" />
       </list>
     </option>
   </component>
@@ -542,7 +545,7 @@
       <workItem from="1462761057567" duration="41895000" />
       <workItem from="1462847136059" duration="10000" />
       <workItem from="1462861578938" duration="26064000" />
-      <workItem from="1462954684551" duration="9681000" />
+      <workItem from="1462954684551" duration="11560000" />
     </task>
     <task id="LOCAL-00001" summary="修复jsBUG">
       <created>1462965678781</created>
@@ -593,11 +596,18 @@
       <option name="project" value="LOCAL" />
       <updated>1462969791942</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="菜单修改">
+      <created>1462969891540</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1462969891540</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77650000" />
+    <option name="totallyTimeSpent" value="79529000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="754" extended-state="0" />
@@ -996,14 +1006,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Menu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="474">
@@ -1025,27 +1027,35 @@
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="254">
-          <caret line="19" column="52" selection-start-line="19" selection-start-column="42" selection-end-line="19" selection-end-column="52" />
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
           <folding>
             <element signature="e#7#392#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/xgmenu.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="31" column="80" selection-start-line="31" selection-start-column="80" selection-end-line="31" selection-end-column="80" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/admin/IndexController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+        <state relative-caret-position="166">
+          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
           <folding>
             <element signature="e#44#80#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/xgmenu.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Menu.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="72" column="78" selection-start-line="72" selection-start-column="78" selection-end-line="72" selection-end-column="78" />
+        <state relative-caret-position="220">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
           <folding />
         </state>
       </provider>
