@@ -24,7 +24,7 @@
                     </div>
                 </div>
                 <div class="ibox-content">
-                    <form method="get" class="form-horizontal">
+                    <form method="post" class="form-horizontal" >
                         <div class="form-group"><label class="col-lg-2 control-label">ID</label>
 
                             <div class="col-lg-10"><p class="form-control-static">{!! $daid->mid !!}</p></div>
