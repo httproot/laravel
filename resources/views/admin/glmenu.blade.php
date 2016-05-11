@@ -46,24 +46,25 @@
                             <td>{!! $y->youfubiao !!}</td>
                             <td>{{$y->mig=$y->fid}}</td>
                             <td>{{$y->px}}</td>
-                            <td><a href="/admin/xgmenu/{{$y->mid}}">编辑</a>|删除</td>
+                            <td><a href="/admin/xgmenu/{{$y->mid}}">编辑</a>|
+                                <a id="{{$y->mid}}" onclick="tishi()">删除</a>
+                            </td>
                         </tr>
                         @endforeach
-                        {{--<tr>--}}
-                            {{--<td>2</td>--}}
-                            {{--<td><span class="pie">226,134</span></td>--}}
-                            {{--<td>Jacob</td>--}}
-                            {{--<td class="text-warning"> <i class="fa fa-level-down"></i> -20% </td>--}}
-                        {{--</tr>--}}
-                        {{--<tr>--}}
-                            {{--<td>3</td>--}}
-                            {{--<td><span class="pie">0.52/1.561</span></td>--}}
-                            {{--<td>Damien</td>--}}
-                            {{--<td class="text-navy"> <i class="fa fa-level-up"></i> 26% </td>--}}
-                        {{--</tr>--}}
                         </tbody>
                     </table>
                 </div>
             </div>
             </div>
+            <script>
+                function tishi() {
+//                    alert(111);
+                    if(confirm("是否确定删除")){
+//                        console.log('111');
+//                        $('#')
+                        location.href="/admin/rmmenu/{{$y->mid}}";
+                        {{--href="/admin/rmmenu/{{$y->mid}}"--}}
+                    }
+                }
+            </script>
 @endsection('content')

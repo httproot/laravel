@@ -32,9 +32,16 @@ class IndexController extends Controller{
             return redirect('admin/glmenu');
         }
     }
+    public function rmmenu($rm){
+        if(Menu::where(['mid'=>$rm])->delete()){
+            return redirect('admin/glmenu');
+        }
+    }
+    public function addmenue(){
+        return view('admin/tjmenu');
+    }
     public function addmenu(){
         $menu=new Menu();
-        $menu->mid=$_POST['mid'];
         $menu->menu_name=$_POST['menu_name'];
         $menu->url=$_POST['url'];
         $menu->tubiao=$_POST['tubiao'];
@@ -42,5 +49,6 @@ class IndexController extends Controller{
         $menu->fid=$_POST['fid'];
         $menu->px=$_POST['px'];
         $menu->save();
+        return redirect('admin/glmenu');
     }
 }

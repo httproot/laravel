@@ -18,6 +18,10 @@ Route::group(['prefix'=>'admin','namespace'=>'admin'],function(){
     Route::get('menu','IndexController@menu');
     Route::get('xgmenu/{menuid}','IndexController@xgmenu');
     Route::post('xgmenu/{sdads?}','IndexController@xgmenupost');
+    Route::get('rmmenu/{rm}','IndexController@rmmenu');
+    Route::get('addmenu','IndexController@addmenue');
+    Route::post('addmenu','IndexController@addmenu');
+
 });
 Route::group(['prefix'=>'auth','namespace'=>'auth'],function(){
     Route::get('register','UseAuthController@getRegister');

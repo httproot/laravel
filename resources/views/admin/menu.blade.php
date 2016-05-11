@@ -22,7 +22,7 @@
                         @foreach($menue as $c)
                            {{--2 {{print_r($v->mid)}}--}}
                             @if($c->fid==$v->mid)
-                                <li class=""><a href="">{!! $c->menu_name !!}<span class="label label-primary pull-right">{!! $c->youfubiao !!}</span></a></li>
+                                <li class=""><a href="{{$c->url }}">{!! $c->menu_name !!}<span class="label label-primary pull-right">{!! $c->youfubiao !!}</span></a></li>
                                 @endif
                         @endforeach
 
