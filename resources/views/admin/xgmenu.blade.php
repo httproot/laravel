@@ -43,25 +43,35 @@
                         <div class="hr-line-dashed"></div>
                         <div class="form-group"><label class="col-sm-2 control-label">图标</label>
 
-                            <div class="col-sm-10"><select class="form-control m-b" name="tubiao" >
-                                    <option>1111</option>
-                                    <option>option 2</option>
-                                    <option selected>option 3</option>
-                                    <option >option 4</option>
-                                </select>
+                            <div class="col-sm-10">
+                                <div style="float: left;margin-left: 10px;"><label> <input type="radio"  value='<i class="fa fa-diamond"></i>' <?php if($daid->tubiao=='<i class="fa fa-th-large"></i>'){echo 'checked=""';}?> id="tubiao" name="tubiao"> <i class="fa fa-th-large"></i> </label></div>
+                                <div style="float: left;margin-left: 10px;"><label> <input type="radio" value='<i class="fa fa-diamond"></i>'<?php if($daid->tubiao=='<i class="fa fa-diamond"></i>'){echo 'checked=""';}?>  id="tubiao" name="tubiao"> <i class="fa fa-diamond"></i></label></div>
+                                <div style="float: left;margin-left: 10px;"><label> <input type="radio" value='<i class="fa fa-bar-chart-o"></i>' <?php if($daid->tubiao=='<i class="fa fa-bar-chart-o"></i>'){echo 'checked=""';}?> id="tubiao" name="tubiao"> <i class="fa fa-bar-chart-o"></i></label></div>
+                                <div style="float: left;margin-left: 10px;"><label> <input type="radio" value='<i class="fa fa-envelope"></i>' <?php if($daid->tubiao=='<i class="fa fa-envelope"></i>'){echo 'checked=""';}?> id="tubiao" name="tubiao"> <i class="fa fa-envelope"></i></label></div>
+                                <div style="float: left;margin-left: 10px;"><label> <input type="radio" value='<i class="fa fa-pie-chart"></i>' <?php if($daid->tubiao=='<i class="fa fa-pie-chart"></i>'){echo 'checked=""';}?> id="tubiao" name="tubiao"> <i class="fa fa-pie-chart"></i></label></div>
+                                <div style="float: left;margin-left: 10px;"><label> <input type="radio" value='<i class="fa fa-flask"></i>' <?php if($daid->tubiao=='<i class="fa fa-flask"></i>'){echo 'checked=""';}?> id="tubiao" name="tubiao"> <i class="fa fa-flask"></i></label></div>
+                                <div style="float: left;margin-left: 10px;"><label> <input type="radio" value='<i class="fa fa-edit"></i>' <?php if($daid->tubiao=='<i class="fa fa-edit"></i>'){echo 'checked=""';}?> id="tubiao" name="tubiao"> <i class="fa fa-edit"></i></label></div>
+                                <div style="float: left;margin-left: 10px;"><label> <input type="radio" value='<i class="fa fa-desktop"></i>' <?php if($daid->tubiao=='<i class="fa fa-desktop"></i>'){echo 'checked=""';}?> id="tubiao" name="tubiao"> <i class="fa fa-desktop"></i></label></div>
+                                <div style="float: left;margin-left: 10px;"><label> <input type="radio" value='<i class="fa fa-files-o"></i>' <?php if($daid->tubiao=='<i class="fa fa-files-o"></i>'){echo 'checked=""';}?> id="tubiao" name="tubiao"> <i class="fa fa-files-o"></i></label></div>
+                                <div style="float: left;margin-left: 10px;"><label> <input type="radio" value='<i class="fa fa-globe"></i>' <?php if($daid->tubiao=='<i class="fa fa-globe"></i>'){echo 'checked=""';}?> id="tubiao" name="tubiao"> <i class="fa fa-globe"></i></label></div>
+                                <div style="float: left;margin-left: 10px;"><label> <input type="radio" value='<i class="fa fa-laptop"></i>' <?php if($daid->tubiao=='<i class="fa fa-laptop"></i>'){echo 'checked=""';}?> id="tubiao" name="tubiao"> <i class="fa fa-laptop"></i></label></div>
+                                <div style="float: left;margin-left: 10px;"><label> <input type="radio" value='<i class="fa fa-table"></i>' <?php if($daid->tubiao=='<i class="fa fa-table"></i>'){echo 'checked=""';}?> id="tubiao" name="tubiao"> <i class="fa fa-table"></i></label></div>
+                                <div style="float: left;margin-left: 10px;"><label> <input type="radio" value='<i class="fa fa-shopping-cart"></i>' <?php if($daid->tubiao=='<i class="fa fa-shopping-cart"></i>'){echo 'checked=""';}?> id="tubiao" name="tubiao"> <i class="fa fa-shopping-cart"></i></label></div>
+                                <div style="float: left;margin-left: 10px;"><label> <input type="radio" value='<i class="fa fa-picture-o"></i>' <?php if($daid->tubiao=='<i class="fa fa-picture-o"></i>'){echo 'checked=""';}?> id="tubiao" name="tubiao"> <i class="fa fa-picture-o"></i></label></div>
+                                <div style="float: left;margin-left: 10px;"><label> <input type="radio" value='<i class="fa fa-sitemap"></i>' <?php if($daid->tubiao=='<i class="fa fa-sitemap"></i>'){echo 'checked=""';}?> id="tubiao" name="tubiao"> <i class="fa fa-sitemap"></i></label></div>
+                                <div style="float: left;margin-left: 10px;"><label> <input type="radio" value='<i class="fa fa-magic"></i>' <?php if($daid->tubiao=='<i class="fa fa-magic"></i>'){echo 'checked=""';}?> id="tubiao" name="tubiao"> <i class="fa fa-magic"></i></label></div>
+                                <div style="float: left;margin-left: 10px;"><label> <input type="radio" value='<i class="fa fa-star"></i>' <?php if($daid->tubiao=='<i class="fa fa-star"></i>'){echo 'checked=""';}?> id="tubiao" name="tubiao"> <i class="fa fa-star"></i></label></div>
+                                <div style="float: left;margin-left: 10px;"><label> <input type="radio" value='<i class="fa fa-database"></i>' <?php if($daid->tubiao=='<i class="fa fa-database"></i>'){echo 'checked=""';}?> id="tubiao" name="tubiao"> <i class="fa fa-database"></i></label></div>
+
+                                {{--<div style="float: left;margin-left: 10px;"><label> <input type="radio" value='111111111' id="tubiao" name="optionsRadios"> 1111111</label></div>--}}
 
                             </div>
                         </div>
+
                         <div class="hr-line-dashed"></div>
                         <div class="form-group"><label class="col-sm-2 control-label">右图标</label>
 
-                            <div class="col-sm-10"><select class="form-control m-b" name="youfubiao" >
-                                        <option>1111</option>
-                                        <option>option 2</option>
-                                        <option selected>option 3</option>
-                                        <option >option 4</option>
-                                    </select>
-                            </div>
+                            <div class="col-sm-10"><input type="text" name="youfubiao" class="form-control"value="{!! $daid->youfubiao !!}"></div>
                         </div>
                         <div class="hr-line-dashed"></div>
                         <div class="form-group"><label class="col-sm-2 control-label">父id</label>

@@ -7,9 +7,7 @@
   <component name="ChangeListManager">
     <list default="true" id="df8c950d-366a-4c12-ae83-c254a34c67f9" name="默认的" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/admin/IndexController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/admin/IndexController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Menu.php" afterPath="$PROJECT_DIR$/app/Menu.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/menu.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/menu.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/xgmenu.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/xgmenu.blade.php" />
     </list>
     <ignored path="xmg.iws" />
@@ -80,12 +78,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="xgmenu.blade.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="xgmenu.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/admin/xgmenu.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="31" column="80" selection-start-line="31" selection-start-column="80" selection-end-line="31" selection-end-column="80" />
-              <folding />
+            <state relative-caret-position="44">
+              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+              <folding>
+                <element signature="e#2383#2421#0#HTML" expanded="true" />
+                <element signature="e#2679#2717#0#HTML" expanded="true" />
+                <element signature="e#2971#3009#0#HTML" expanded="true" />
+                <element signature="e#3275#3313#0#HTML" expanded="true" />
+                <element signature="e#3570#3608#0#HTML" expanded="true" />
+                <element signature="e#3868#3906#0#HTML" expanded="true" />
+                <element signature="e#4154#4192#0#HTML" expanded="true" />
+                <element signature="e#4437#4475#0#HTML" expanded="true" />
+                <element signature="e#4729#4767#0#HTML" expanded="true" />
+                <element signature="e#5021#5059#0#HTML" expanded="true" />
+                <element signature="e#5307#5345#0#HTML" expanded="true" />
+                <element signature="e#5596#5634#0#HTML" expanded="true" />
+                <element signature="e#5882#5920#0#HTML" expanded="true" />
+                <element signature="e#6192#6230#0#HTML" expanded="true" />
+                <element signature="e#6490#6528#0#HTML" expanded="true" />
+                <element signature="e#6782#6820#0#HTML" expanded="true" />
+                <element signature="e#7068#7106#0#HTML" expanded="true" />
+                <element signature="e#7351#7389#0#HTML" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -100,7 +117,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Menu.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Menu.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Menu.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
@@ -113,8 +130,8 @@
       <file leaf-file-name="menu.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/admin/menu.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="42" column="65" selection-start-line="42" selection-start-column="65" selection-end-line="42" selection-end-column="65" />
+            <state relative-caret-position="198">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -167,7 +184,6 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/UseAuthController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/QxController.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/menu.balde.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/menu.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2016_05_10_071411_create_menu.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/admin/AdminController.php" />
         <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
@@ -176,8 +192,9 @@
         <option value="$PROJECT_DIR$/resources/views/admin/base_content.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/app/Menu.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/xgmenu.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/admin/IndexController.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/menu.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/xgmenu.blade.php" />
       </list>
     </option>
   </component>
@@ -485,7 +502,7 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="D:/Program Files/Git/bin/git.exe" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
@@ -545,7 +562,7 @@
       <workItem from="1462761057567" duration="41895000" />
       <workItem from="1462847136059" duration="10000" />
       <workItem from="1462861578938" duration="26064000" />
-      <workItem from="1462954684551" duration="11560000" />
+      <workItem from="1462954684551" duration="17613000" />
     </task>
     <task id="LOCAL-00001" summary="修复jsBUG">
       <created>1462965678781</created>
@@ -603,11 +620,18 @@
       <option name="project" value="LOCAL" />
       <updated>1462969891540</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="菜单修改">
+      <created>1462971773671</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1462971773671</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79529000" />
+    <option name="totallyTimeSpent" value="85582000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1378" height="754" extended-state="0" />
@@ -988,39 +1012,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/menu.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="42" column="65" selection-start-line="42" selection-start-column="65" selection-end-line="42" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/glmenu.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="19" />
-          <folding>
-            <element signature="e#114#982#0#HTML" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/User.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="474">
           <caret line="34" column="55" selection-start-line="34" selection-start-column="55" selection-end-line="34" selection-end-column="55" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="e#33#72#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1034,11 +1030,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/xgmenu.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="31" column="80" selection-start-line="31" selection-start-column="80" selection-end-line="31" selection-end-column="80" />
-          <folding />
+        <state relative-caret-position="132">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="e#33#72#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/glmenu.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="19" />
+          <folding>
+            <element signature="e#114#982#0#HTML" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1057,6 +1065,41 @@
         <state relative-caret-position="220">
           <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/menu.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/xgmenu.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding>
+            <element signature="e#2383#2421#0#HTML" expanded="true" />
+            <element signature="e#2679#2717#0#HTML" expanded="true" />
+            <element signature="e#2971#3009#0#HTML" expanded="true" />
+            <element signature="e#3275#3313#0#HTML" expanded="true" />
+            <element signature="e#3570#3608#0#HTML" expanded="true" />
+            <element signature="e#3868#3906#0#HTML" expanded="true" />
+            <element signature="e#4154#4192#0#HTML" expanded="true" />
+            <element signature="e#4437#4475#0#HTML" expanded="true" />
+            <element signature="e#4729#4767#0#HTML" expanded="true" />
+            <element signature="e#5021#5059#0#HTML" expanded="true" />
+            <element signature="e#5307#5345#0#HTML" expanded="true" />
+            <element signature="e#5596#5634#0#HTML" expanded="true" />
+            <element signature="e#5882#5920#0#HTML" expanded="true" />
+            <element signature="e#6192#6230#0#HTML" expanded="true" />
+            <element signature="e#6490#6528#0#HTML" expanded="true" />
+            <element signature="e#6782#6820#0#HTML" expanded="true" />
+            <element signature="e#7068#7106#0#HTML" expanded="true" />
+            <element signature="e#7351#7389#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

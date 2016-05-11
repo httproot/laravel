@@ -16,13 +16,13 @@
                         @else
                         <li class="">
                     @endif
-                    <a href="{{$v->url }}">{!!$v->tubiao!!}<span class="nav-label">{{$v->menu_name}}</span> <span class="fa arrow"></span>{!! $v->youfubiao!!}</a>
+                    <a href="{{$v->url }}">{!!$v->tubiao!!}<span class="nav-label">{{$v->menu_name}}</span> <span class="fa arrow"></span><span class="label label-primary pull-right">{!! $v->youfubiao !!}</span></a>
                     <ul class="nav nav-second-level collapse">
 
                         @foreach($menue as $c)
                            {{--2 {{print_r($v->mid)}}--}}
                             @if($c->fid==$v->mid)
-                                <li class=""><a href="">{!! $c->menu_name !!}{!! $c->youfubiao !!}</a></li>
+                                <li class=""><a href="">{!! $c->menu_name !!}<span class="label label-primary pull-right">{!! $c->youfubiao !!}</span></a></li>
                                 @endif
                         @endforeach
 
