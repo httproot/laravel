@@ -16,6 +16,7 @@ class IndexController extends Controller{
         return view('admin.glmenu');
     }
     public function xgmenu($menuid){
-        return view('admin.xgmenu',['daid'=>$menuid]);
+        $xgmenu=DB::table('admin_menu')->where(['mid'=>$menuid])->first();
+        return view('admin.xgmenu',['daid'=>$xgmenu]);
     }
 }
