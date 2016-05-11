@@ -5,7 +5,7 @@
         <div class="col-lg-12">
             <div class="ibox float-e-margins">
                 <div class="ibox-title">
-                    <h5>所有的表单元素<small>和常见的 checbox 和 radion 元素。</small></h5>
+                    <h5>导航菜单修改</h5>
                     <div class="ibox-tools">
                         <a class="collapse-link">
                             <i class="fa fa-chevron-up"></i>
