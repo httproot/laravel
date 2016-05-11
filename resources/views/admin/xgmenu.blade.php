@@ -32,17 +32,17 @@
                         <div class="hr-line-dashed"></div>
                         <div class="form-group"><label class="col-sm-2 control-label">名称</label>
 
-                            <div class="col-sm-10"><input type="text" class="form-control" value="{!! $daid->menu_name !!}"></div>
+                            <div class="col-sm-10"><input type="text" class="form-control"name="menu_name" value="{!! $daid->menu_name !!}"></div>
                         </div>
                         <div class="hr-line-dashed"></div>
                         <div class="form-group"><label class="col-sm-2 control-label">url</label>
 
-                            <div class="col-sm-10"><input type="text" class="form-control"value="{!! $daid->url !!}"></div>
+                            <div class="col-sm-10"><input type="text" class="form-control" name="url" value="{!! $daid->url !!}"></div>
                         </div>
                         <div class="hr-line-dashed"></div>
                         <div class="form-group"><label class="col-sm-2 control-label">图标</label>
 
-                            <div class="col-sm-10"><select class="form-control m-b" name="account" >
+                            <div class="col-sm-10"><select class="form-control m-b" name="tubiao" >
                                     <option>1111</option>
                                     <option>option 2</option>
                                     <option selected>option 3</option>
@@ -54,7 +54,7 @@
                         <div class="hr-line-dashed"></div>
                         <div class="form-group"><label class="col-sm-2 control-label">右图标</label>
 
-                            <div class="col-sm-10"><select class="form-control m-b" name="account" >
+                            <div class="col-sm-10"><select class="form-control m-b" name="youfubiao" >
                                         <option>1111</option>
                                         <option>option 2</option>
                                         <option selected>option 3</option>
@@ -65,12 +65,12 @@
                         <div class="hr-line-dashed"></div>
                         <div class="form-group"><label class="col-sm-2 control-label">父id</label>
 
-                            <div class="col-sm-10"><input type="text" class="form-control"value="{!! $daid->fid !!}"></div>
+                            <div class="col-sm-10"><input type="text" name="fid" class="form-control"value="{!! $daid->fid !!}"></div>
                         </div>
                         <div class="hr-line-dashed"></div>
                         <div class="form-group"><label class="col-sm-2 control-label">排名</label>
 
-                            <div class="col-sm-10"><input type="text" class="form-control"value="{!! $daid->px !!}"></div>
+                            <div class="col-sm-10"><input type="text" name="px" class="form-control"value="{!! $daid->px !!}"></div>
                         </div>
                         <div class="hr-line-dashed"></div>
                         <div class="form-group">
