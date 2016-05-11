@@ -76,7 +76,7 @@ $(document).ready(function () {
     });
 
     // Open close small chat
-    $('.open-small-chat').click(function () {
+  $('.open-small-chat').click(function () {
         $(this).children().toggleClass('fa-comments').toggleClass('fa-remove');
         $('.small-chat-box').toggleClass('active');
     });
@@ -98,12 +98,12 @@ $(document).ready(function () {
 
     // Append config box / Only for demo purpose
     // Uncomment on server mode to enable XHR calls
-   $.get("skin-config.html", function (data) {
-       if (!$('body').hasClass('no-skin-config'))
-           $('body').append(data);
-   });
+   // $.get("skin-config.html", function (data) {
+   //     if (!$('body').hasClass('no-skin-config'))
+   //         $('body').append(data);
+   // });
 
-    // Minimalize menu
+   //  // Minimalize menu
     $('.navbar-minimalize').click(function () {
         $("body").toggleClass("mini-navbar");
         SmoothlyMenu();

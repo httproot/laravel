@@ -12,7 +12,10 @@ class IndexController extends Controller{
         return view('admin.index');
     }
     public function glmenu(){
-        DB::table('admin_menu')->get();
+//        DB::table('admin_menu')->get();
         return view('admin.glmenu');
+    }
+    public function xgmenu($menuid){
+        return view('admin.xgmenu',['daid'=>$menuid]);
     }
 }
