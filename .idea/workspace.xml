@@ -6,12 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df8c950d-366a-4c12-ae83-c254a34c67f9" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/admin/tjmenu.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/admin/IndexController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/admin/IndexController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/glmenu.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/glmenu.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/menu.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/menu.blade.php" />
     </list>
     <ignored path="xmg.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="298">
-              <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+              <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
               <folding>
                 <element signature="e#7#392#0#PHP" expanded="true" />
               </folding>
@@ -227,8 +222,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-7" />
     <option name="width" value="1378" />
     <option name="height" value="754" />
   </component>
@@ -579,7 +573,7 @@
       <workItem from="1462761057567" duration="41895000" />
       <workItem from="1462847136059" duration="10000" />
       <workItem from="1462861578938" duration="26064000" />
-      <workItem from="1462954684551" duration="20754000" />
+      <workItem from="1462954684551" duration="21759000" />
     </task>
     <task id="LOCAL-00001" summary="修复jsBUG">
       <created>1462965678781</created>
@@ -651,14 +645,21 @@
       <option name="project" value="LOCAL" />
       <updated>1462978243369</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="导航搞定">
+      <created>1462981395878</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1462981395878</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88723000" />
+    <option name="totallyTimeSpent" value="89728000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1378" height="754" extended-state="0" />
+    <frame x="-7" y="0" width="1378" height="754" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -701,7 +702,8 @@
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="false" />
     <MESSAGE value="修复jsBUG" />
     <MESSAGE value="菜单修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="菜单修改" />
+    <MESSAGE value="导航搞定" />
+    <option name="LAST_COMMIT_MESSAGE" value="导航搞定" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1120,7 +1122,7 @@
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
-          <caret line="21" column="53" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
+          <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
           <folding>
             <element signature="e#7#392#0#PHP" expanded="true" />
           </folding>
