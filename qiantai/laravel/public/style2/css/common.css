@@ -1,0 +1,39 @@
+﻿/* 
+页面开发时，设计稿里没有相应的样式，后期可由UI统一处理!
+by Jiangxp
+@2015.6.29
+*/
+.hide {display: none;}
+.error-msg {position: absolute;top: 38px;left: 133px;z-index: 2;color: red;}      
+.send-msg {position: absolute;top: 2px;right: 80px;z-index: 2;color: green; }
+.main .m-right .m-list ul li span.state.green{ color:green;}
+.main .m-right .m-list ul li span.state.blue{ color:blue;}
+
+/*文件上传*/
+ .customupuploadprogress {
+            display:none;
+        }
+.uploadify-button {
+    color: #FFFFFF!important;
+   background-color: #1f7cd0;
+    text-align: center;
+    text-decoration:none;
+    padding:3px 7px;
+    font-family: "微软雅黑", Tahoma, Arial, Helvetica, STHeiti;
+    border-radius: 3px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: .3s;
+    transition-duration: .3s;
+}
+.uploadify-button:hover {
+    text-decoration:none;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+
+.i-dialog{border:1px solid #1f7cd0;}
+.i-dialog .i-target{background:#1f7cd0;}

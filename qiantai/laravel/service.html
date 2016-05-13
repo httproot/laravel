@@ -1,0 +1,19 @@
+<html>
+<meta name="csrf-token" content="{{ csrf_token() }}">
+ <script type="text/javascript" src="./style/js/goodssupplyv2.js"></script>
+ <script>
+
+   $.ajax({
+   type: "POST",
+   url: "http://zm.com/service.php", 
+   headers: {
+            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+        },
+   success: function(msg){
+     console.log( "Data Saved: " + msg );
+   }
+});
+  </script>
+<body>
+</body>
+</html>

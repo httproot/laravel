@@ -1,0 +1,19 @@
+<html>
+
+
+<body>
+
+<script>
+   $.ajax({
+   type: "POST",
+   url: "http://zm.com/service.php", 
+   headers: {
+            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+        },
+   success: function(msg){
+     console.log( "Data Saved: " + msg );
+   }
+});
+  </script>
+</body>
+</html>

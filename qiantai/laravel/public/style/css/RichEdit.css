@@ -1,0 +1,18 @@
+.help-item ol {
+  padding-left: 20px;
+}
+.help-item ol li {
+  list-style-type: underline;
+}
+.help-item ul {
+  padding-left: 20px;
+}
+.help-item ul li {
+  list-style-type: initial;
+}
+.help-item strong {
+  font-weight: bold;
+}
+.help-item em {
+  font-style: italic;
+}
